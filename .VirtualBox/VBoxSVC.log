@@ -1,0 +1,139 @@
+00:00:00.006415 main     VirtualBox COM Server 6.1.28 r147628 win.amd64 (Oct 18 2021 18:49:03) release log
+00:00:00.006419 main     Log opened 2022-12-02T15:57:09.434318800Z
+00:00:00.006420 main     Build Type: release
+00:00:00.006426 main     OS Product: Windows 11
+00:00:00.006427 main     OS Release: 10.0.22621
+00:00:00.006428 main     OS Service Pack: 
+00:00:00.153446 main     DMI Product Name: NBLK-WAX9X
+00:00:00.182242 main     DMI Product Version: M1110
+00:00:00.182266 main     Firmware type: UEFI
+00:00:00.183131 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.183166 main     Host RAM: 7103MB (6.9GB) total, 1930MB available
+00:00:00.183178 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.183180 main     Process ID: 1808
+00:00:00.183181 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.355200          VirtualBox: object creation starts
+00:00:00.357330          Home directory: 'C:\Users\HUAWEI\.VirtualBox'
+00:00:00.357857          Installed Drivers:
+00:00:00.363602            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.28.47628)
+00:00:00.366232            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.28.47628)
+00:00:00.367999            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.28.47628)
+00:00:00.370871            C:\WINDOWS\System32\drivers\VBoxNetAdp6.sys (Version: 6.1.28.47628)
+00:00:00.401603          Loading settings file "C:\Users\HUAWEI\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.414977          usbLibGetDevices: Starting USB device enumeration
+00:00:00.415330          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&10c37a43&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.416135          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&34057ea6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+00:00:00.416281          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&34057ea6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+00:00:00.419476          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.420258          USB: Unknown USB device detected (idVendor: 0x1358, idProduct: 0xc123)
+00:00:00.421846          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56f8)
+00:00:00.421910          USB: Unknown USB device detected (idVendor: 0x27c6, idProduct: 0x5110)
+00:00:00.546069          netIfIsWireless: CreateFile on '\\.\{2292C79C-1E1F-4FE0-8610-679E5FBDD28C}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.549971          netIfIsWireless: CreateFile on '\\.\{9D25FEF3-D073-4384-ABCE-8BFC81A3F70E}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.551238          netIfIsWireless: CreateFile on '\\.\{91E0A500-3597-401F-8606-08BA288A523D}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.569416          HostDnsMonitor: initializing
+00:00:00.587893          HostDnsMonitor: updating information
+00:00:00.588578          HostDnsMonitor: old information
+00:00:00.588581            no server entries
+00:00:00.588584            no domain set
+00:00:00.588585            no search string entries
+00:00:00.588586          HostDnsMonitor: new information
+00:00:00.588587            server 1: 192.168.1.254
+00:00:00.588589            no domain set
+00:00:00.588590            no search string entries
+00:00:00.682253          VD: VDInit finished with VINF_SUCCESS
+00:00:00.702295          Loading settings file "C:\Users\HUAWEI\VirtualBox VMs\ubuntu_emily\ubuntu_emily.vbox" with version "1.16-windows"
+00:00:00.719401          Loading settings file "C:\Users\HUAWEI\VirtualBox VMs\xp_emily\xp_emily.vbox" with version "1.15-windows"
+00:00:00.732003          Loading settings file "C:\Users\HUAWEI\VirtualBox VMs\LinuxMint_emily\Linux Mint\Linux Mint.vbox" with version "1.16-windows"
+00:00:00.743685          Loading settings file "C:\Users\HUAWEI\VirtualBox VMs\Windows Server 2019\Windows Server 2019.vbox" with version "1.15-windows"
+00:00:00.754828          Loading settings file "C:\Users\HUAWEI\VirtualBox VMs\Ubuntu Server\Ubuntu Server.vbox" with version "1.16-windows"
+00:00:00.756969          VirtualBox: object created
+00:00:08.880677          Saving settings file "C:\Users\HUAWEI\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:08.920644          Saving settings file "C:\Users\HUAWEI\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:10.248279          Launched VM: 64381600 pid: 25656 (0x6438) frontend: GUI/Qt name: Ubuntu Server
+00:00:16.594924          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:16.873268          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:17.240000          netIfIsWireless: CreateFile on '\\.\{2292C79C-1E1F-4FE0-8610-679E5FBDD28C}' failed with rcWin=2 (0x2) - ignoring
+00:00:17.243445          netIfIsWireless: CreateFile on '\\.\{9D25FEF3-D073-4384-ABCE-8BFC81A3F70E}' failed with rcWin=2 (0x2) - ignoring
+00:00:17.244628          netIfIsWireless: CreateFile on '\\.\{91E0A500-3597-401F-8606-08BA288A523D}' failed with rcWin=2 (0x2) - ignoring
+00:00:17.747475          netIfIsWireless: CreateFile on '\\.\{2292C79C-1E1F-4FE0-8610-679E5FBDD28C}' failed with rcWin=2 (0x2) - ignoring
+00:00:17.750974          netIfIsWireless: CreateFile on '\\.\{9D25FEF3-D073-4384-ABCE-8BFC81A3F70E}' failed with rcWin=2 (0x2) - ignoring
+00:00:17.752331          netIfIsWireless: CreateFile on '\\.\{91E0A500-3597-401F-8606-08BA288A523D}' failed with rcWin=2 (0x2) - ignoring
+00:01:10.188128 dns-monitor HostDnsMonitor: updating information
+00:01:10.188189 dns-monitor HostDnsMonitor: unchanged
+00:01:12.202202 dns-monitor HostDnsMonitor: updating information
+00:01:12.202240 dns-monitor HostDnsMonitor: unchanged
+00:06:42.219453 dns-monitor HostDnsMonitor: updating information
+00:06:42.219499 dns-monitor HostDnsMonitor: unchanged
+00:06:44.233429 dns-monitor HostDnsMonitor: updating information
+00:06:44.233492 dns-monitor HostDnsMonitor: unchanged
+00:12:14.190728 dns-monitor HostDnsMonitor: updating information
+00:12:14.190786 dns-monitor HostDnsMonitor: unchanged
+00:12:16.205556 dns-monitor HostDnsMonitor: updating information
+00:12:16.205611 dns-monitor HostDnsMonitor: unchanged
+00:17:46.197041 dns-monitor HostDnsMonitor: updating information
+00:17:46.197081 dns-monitor HostDnsMonitor: unchanged
+00:17:48.222474 dns-monitor HostDnsMonitor: updating information
+00:17:48.222527 dns-monitor HostDnsMonitor: unchanged
+00:23:18.190393 dns-monitor HostDnsMonitor: updating information
+00:23:18.190449 dns-monitor HostDnsMonitor: unchanged
+00:23:20.203422 dns-monitor HostDnsMonitor: updating information
+00:23:20.203466 dns-monitor HostDnsMonitor: unchanged
+00:28:50.235432 dns-monitor HostDnsMonitor: updating information
+00:28:50.235563 dns-monitor HostDnsMonitor: unchanged
+00:28:53.695565 dns-monitor HostDnsMonitor: updating information
+00:28:53.695616 dns-monitor HostDnsMonitor: unchanged
+00:34:22.169414 dns-monitor HostDnsMonitor: updating information
+00:34:22.169449 dns-monitor HostDnsMonitor: unchanged
+00:34:24.177094 dns-monitor HostDnsMonitor: updating information
+00:34:24.177124 dns-monitor HostDnsMonitor: unchanged
+00:39:53.671261 dns-monitor HostDnsMonitor: updating information
+00:39:53.671306 dns-monitor HostDnsMonitor: unchanged
+00:39:55.682210 dns-monitor HostDnsMonitor: updating information
+00:39:55.682254 dns-monitor HostDnsMonitor: unchanged
+00:45:26.173340 dns-monitor HostDnsMonitor: updating information
+00:45:26.173372 dns-monitor HostDnsMonitor: unchanged
+00:45:28.185475 dns-monitor HostDnsMonitor: updating information
+00:45:28.185506 dns-monitor HostDnsMonitor: unchanged
+00:50:57.674585 dns-monitor HostDnsMonitor: updating information
+00:50:57.674648 dns-monitor HostDnsMonitor: unchanged
+00:50:59.681452 dns-monitor HostDnsMonitor: updating information
+00:50:59.681488 dns-monitor HostDnsMonitor: unchanged
+00:56:29.170397 dns-monitor HostDnsMonitor: updating information
+00:56:29.170424 dns-monitor HostDnsMonitor: unchanged
+00:56:31.181850 dns-monitor HostDnsMonitor: updating information
+00:56:31.181881 dns-monitor HostDnsMonitor: unchanged
+01:02:00.672384 dns-monitor HostDnsMonitor: updating information
+01:02:00.672417 dns-monitor HostDnsMonitor: unchanged
+01:02:02.680048 dns-monitor HostDnsMonitor: updating information
+01:02:02.680079 dns-monitor HostDnsMonitor: unchanged
+01:07:32.167896 dns-monitor HostDnsMonitor: updating information
+01:07:32.167938 dns-monitor HostDnsMonitor: unchanged
+01:07:34.173717 dns-monitor HostDnsMonitor: updating information
+01:07:34.173744 dns-monitor HostDnsMonitor: unchanged
+01:13:03.670086 dns-monitor HostDnsMonitor: updating information
+01:13:03.670230 dns-monitor HostDnsMonitor: unchanged
+01:13:05.683881 dns-monitor HostDnsMonitor: updating information
+01:13:05.683915 dns-monitor HostDnsMonitor: unchanged
+01:17:47.642509 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:17:47.647576 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&34057ea6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 1
+01:17:47.647695 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&34057ea6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+01:17:47.649438 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+01:18:35.175352 dns-monitor HostDnsMonitor: updating information
+01:18:35.175382 dns-monitor HostDnsMonitor: unchanged
+01:18:37.187861 dns-monitor HostDnsMonitor: updating information
+01:18:37.187897 dns-monitor HostDnsMonitor: unchanged
+01:20:04.143265          Saving settings file "C:\Users\HUAWEI\VirtualBox VMs\Ubuntu Server\Ubuntu Server.vbox" with version "1.16-windows"
+01:20:04.161731          Saving settings file "C:\Users\HUAWEI\VirtualBox VMs\Ubuntu Server\Ubuntu Server.vbox" with version "1.16-windows"
+01:20:06.545732          Saving settings file "C:\Users\HUAWEI\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:06.551004          Saving settings file "C:\Users\HUAWEI\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:12.086338 main     VirtualBox: object deletion starts
+01:20:12.097126 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\HUAWEI\VirtualBox VMs\ubuntu_emily\ubuntu_emily.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:20:12.099402 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\HUAWEI\VirtualBox VMs\xp_emily\xp_emily.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:20:12.099894 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\HUAWEI\VirtualBox VMs\LinuxMint_emily\Linux Mint\Linux Mint.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:20:12.100235 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\HUAWEI\VirtualBox VMs\Windows Server 2019\Windows Server 2019.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:20:12.100501 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\HUAWEI\VirtualBox VMs\Ubuntu Server\Ubuntu Server.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:20:12.101988 main     HostDnsMonitor: shutting down ...
+01:20:12.102058 main     HostDnsMonitor: shut down
+01:20:12.105376 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:20:12.106411 main     VirtualBox: object deleted

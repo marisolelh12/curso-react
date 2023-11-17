@@ -1,0 +1,18 @@
+00:00:00.952370 VirtualBox GUI VM Selector Window 6.1.28 r147628 win.amd64 (Oct 18 2021 18:49:03) release log
+00:00:00.952373 Log opened 2022-11-16T13:21:10.572247200Z
+00:00:00.952374 Build Type: release
+00:00:00.952379 OS Product: Windows 11
+00:00:00.952380 OS Release: 10.0.22621
+00:00:00.952381 OS Service Pack: 
+00:00:00.971914 DMI Product Name: NBLK-WAX9X
+00:00:00.978585 DMI Product Version: M1110
+00:00:00.978607 Firmware type: UEFI
+00:00:00.979171 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.979195 Host RAM: 7103MB (6.9GB) total, 2191MB (2.1GB) available
+00:00:00.979201 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.979202 Process ID: 10208
+00:00:00.979202 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.979455 Qt version: 5.6.2
+00:00:01.014080 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.382556 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:34:45.820743 GUI: UIMediumEnumerator: Medium-enumeration finished!
